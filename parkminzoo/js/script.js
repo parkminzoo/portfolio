@@ -1,4 +1,4 @@
-window.onload = function (){
+
 //horizon scroll
 (function(){
     init();
@@ -138,4 +138,4 @@ window.onload = function (){
   //첫번째 슬라이드 먼저 보이도록 하기
   goToSlide(0); //지금이 첫번째인것을 지정해줘야 첫페이지 화살표가 사라짐
 
-};
+
