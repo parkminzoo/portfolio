@@ -72,6 +72,43 @@ li{
         background-position-x: -1000px;
     }
 }
+#section01 .first-text{
+    width:100%;
+    height:100vh;
+    color:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#section01 .first-text h1{
+    font-size: 80px;
+}
+
+.typed-cursor {
+    opacity: 0;
+    display: none;
+}
+
+.auto-type::after {
+    position: relative;
+    top: -4px;
+    content: '|';
+    display: inline-block;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
 
 #section02 > main {
     overflow-x: hidden;
@@ -88,13 +125,17 @@ li{
     align-items: center;
     font-size: 4ch;
 }
-#section02 .title {
+
+
+#section02 main section .title {
     flex: 10%;
     background-color: yellow;
     width:100%;
     height:100%;
     text-align: centers;
 }
+
+
 /* about */
 .circle-chart__circle {
     animation: circle-chart-fill 2s reverse; /* 1 */ 
@@ -134,7 +175,7 @@ li{
     }
   }
 /* web */
-#section02 div:nth-of-type(2){
+#section02 section div:nth-of-type(2){
     flex:90%;
 } 
 #section02 section:nth-child(even) {
