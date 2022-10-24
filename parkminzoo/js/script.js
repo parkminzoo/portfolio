@@ -45,6 +45,7 @@
     }
 })();
 
+
 //skills
 const skillsSection = document.getElementById('skills-section');
 const progressBars = document.querySelectorAll('.progress-bar');
