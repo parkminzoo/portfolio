@@ -135,6 +135,7 @@ li{
     border-right: 1px solid #eee;
     border-left: 1px solid #eee;
 
+
 }
 #section02 main section .title h2{
     display:inline-block;
@@ -142,6 +143,7 @@ li{
     writing-mode: vertical-rl;
     font-size:50px;
     box-sizing: border-box;
+    transform: rotate(-180deg) translate(0%);
 }
 
 /* skills */
